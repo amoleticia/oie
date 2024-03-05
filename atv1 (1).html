@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula1</title>
+</head>
+<body>
+  
+    <h1>Aula 1</h1>
+    Entrada: <input type="text" id="meutexto" value="">
+    Entrada: <input type="text" id="meutexto2" value="">
+    <button type="button" onclick="minhafuncao()">Concatenar</button>
+    <p id="teste"></p>
+    <script>
+        function minhafuncao(){  
+      var x = document.getElementById("meutexto").value;
+      var y = document.getElementById("meutexto2").value;
+        document.getElementById("teste").innerHTML = x + y
+    }
+    </script>
+
+
+</body>
+</html>

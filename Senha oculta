@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+</head>
+<body>
+    <h1>Aula 1</h1>
+    Digite a senha: <input type="number" id="senha" value="">
+    <button type="button" onclick="funcao()">Enviar</button>
+    <p id = "texto"></p>
+    <script>
+        function funcao(){
+
+        
+        var oculta = 1234
+        var x = document.getElementById("senha").value;
+        if (x == 1234) {
+           document.getElementById("texto").innerHTML = "True"
+        }else  {
+            document.getElementById("texto").innerHTML = "False"
+}
+    
+}
+    </script>
+</body>
+</html>

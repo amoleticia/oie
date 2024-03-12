@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atv1</title>
+</head>
+<body>
+    <h1>Atividade 1 Lista 2</h1>
+    Cateto Oposto: <input type="number" id="l1" value="">
+    Cateto Adjacente: <input type="number" id="l2" value="">
+    <button onclick="funcao()">OK</button>
+    <p id="resultado"></p>
+    <script>
+        
+        function funcao(){
+            var l1 = document.getElementById("l1").value
+            var l2 = document.getElementById("l2").value
+            var calculo = (l1 * l1) + (l2 * l2)
+            Number(document.getElementById("resultado").innerHTML = "A hipotenusa é " + Math.sqrt(calculo))
+
+
+        }
+
+    </script>
+</body>
+</html>
